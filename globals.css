@@ -15,12 +15,12 @@ font-style: normal;
 
 
 .drink3 {
-  background-image: url("public/drink3.jpg");
+  background-image: url("/drink3.jpg");
   background-size: cover;
 }
 
 .bg{
-  background-image: url("public/background.jpg");
+  background-image: url("/background.jpg");
  background-size: cover;
   
 }
