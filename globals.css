@@ -1,0 +1,68 @@
+@import url("https://use.typekit.net/nyp0ind.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200;300;400;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+font-family: "bebas-kai", sans-serif;
+font-weight: 400;
+font-style: normal;
+/*background-color: rgb(250, 173, 6);*/
+
+}
+
+.drink3 {
+  background-image: url("pages/assets/drink3.jpg");
+  background-size: cover;
+}
+
+.drink2 {
+    background-image: url("pages/assets/drink2.jpg");
+    background-size: fill;
+}
+
+.drink1 {
+    background-image: url("pages/assets/drink1.jpg");
+    background-size: cover;
+    
+}
+.bg{
+  background-image: url("pages/assets/background.jpg");
+ background-size: cover;
+  
+}
+
+
+
+.gallery{
+    transform-style:preserve-3d;
+    animation: rotate 10s linear infinite;
+  }
+  
+  
+  @keyframes rotate{
+    0%{
+      transform:perspective(1200px) rotateY(0deg);
+    }
+    
+    25%{
+      transform:perspective(1200px) rotateY(45deg);
+    }
+    50%{
+        transform:perspective(1200px) rotateY(-45deg);
+      }
+      100%{
+        transform:perspective(1200px) rotateY(0deg);
+      }
+
+
+  }
+  
+  
+  
+  .three{
+    transform-style:preserve-3d;
+    transform:rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+  }
