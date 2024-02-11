@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Drink({ drink }) {
     return (
-        <div className ="w-full lg:h-screen flex flex-col justify-center items-center pt-20 bg-orange-400">
+        <div className ="w-full lg:h-screen flex flex-col justify-center items-center pt-40 bg-orange-400">
                 <div className="w-full flex flex-col gap-20">
                 <h1 className ="w-full flex justify-center items-center text-3xl py-10">{drink.id}</h1>
                 </div>

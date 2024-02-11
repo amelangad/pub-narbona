@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 export default function Shots() {
   return (
-    <div className ="h-screen flex flex-col justify-start items-center gap-10 pt-20 bg-orange-400">
-      <h1 className="text-6xl py-20">U nas w lokalu znajdziesz:</h1>
-      <div className ="flex flex-col lg:flex-row flex-wrap">
+    <div className ="h-screen flex flex-col justify-start items-center gap-10 pt-40 bg-orange-400">
+      <h1 className="text-2xl lg:text-6xl py-20">U nas w lokalu znajdziesz:</h1>
+      <div className =" flex flex-col lg:flex-row flex-wrap justify-center bg-white">
   <Image
       src="/browars/tyskie.png"
       width={300}

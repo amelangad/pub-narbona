@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 export default function Offert() {
   return (
     <div className ="w-full h-screen flex justify-start items-center flex-col  drink3 " >
-    <motion.h1 className ="text-8xl pt-40"
+    <motion.h1 className =" text-3xl lg:text-8xl pt-60 lg:pt-40"
     initial={{y: -200, opacity:0}}
   whileInView={{y:0, opacity:1 }}
   transition={{
@@ -13,7 +13,7 @@ export default function Offert() {
     type: "tween",
   }}
     >Czego szukasz?</motion.h1>
-    <div className ="w-full text-6xl py-20 flex gap-20 flex-row justify-center pt-20 ">
+    <div className ="w-full  text-2xl lg:text-6xl lg:py-20 flex  flex-col lg:flex-row  gap-5 lg:gap-20  justify-center items-center  pt-5 lg:pt-20 ">
         <motion.div
         className ="bg-[#0f0f0fcc] p-5 text-orange-400 rounded-xl"
         initial={{ opacity:0}}
