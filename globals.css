@@ -13,26 +13,18 @@ font-style: normal;
 
 }
 
+
 .drink3 {
-  background-image: url("pages/assets/drink3.jpg");
+  background-image: url("public/drink3.jpg");
   background-size: cover;
 }
 
-.drink2 {
-    background-image: url("pages/assets/drink2.jpg");
-    background-size: fill;
-}
-
-.drink1 {
-    background-image: url("pages/assets/drink1.jpg");
-    background-size: cover;
-    
-}
 .bg{
-  background-image: url("pages/assets/background.jpg");
+  background-image: url("public/background.jpg");
  background-size: cover;
   
 }
+
 
 
 
