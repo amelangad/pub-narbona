@@ -27,19 +27,19 @@ export default function Contact() {
     <div className ="bg-[#fdba61] flex flex-col  gap-20 justify-center items-start px-10  w-full lg:w-1/2 h-full">
     <p className ="text-4xl font-roboto w-full flex justify-center">Sprawdź nasze inne media społecznościowe!</p>
     <div className ="flex flex-row gap-10 justify-center items-center w-full">
-      <p>
-      <FaInstagram size={40} />
+      <p className ="cursor-pointer">
+      <a href="http://instagram.pl"><FaInstagram size={40} /></a>
       </p>
-      <p>
-      <FaFacebook size={40} />
+      <p className ="cursor-pointer">
+      <a href="https://www.facebook.pl"><FaFacebook size={40} /></a>
       </p>
-      <p>
-      <FaTiktok size={40} />
+      <p className ="cursor-pointer">
+      <a href="http://www.tiktok.pl"><FaTiktok size={40} /></a>
       </p>
     </div>
     <div className ="w-full flex flex-col justify-center items-centr gap-10">
     <p className ="text-3xl w-full flex justify-center">lub odezwij się do nas na messenger</p>
-    <p className ="w-full flex justify-center">
+    <p className ="w-full flex justify-center pb-20">
       <FaFacebookMessenger size={50} />
     </p>
     </div>
