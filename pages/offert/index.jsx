@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 export default function Offert() {
   return (
-    <div className ="w-full h-screen flex justify-start items-center flex-col  drink3 " >
+    <div className ="w-full max-h-screen min-h-screen flex justify-start items-center flex-col  drink3 " >
     <motion.h1 className =" text-3xl lg:text-8xl pt-60 lg:pt-40"
     initial={{y: -200, opacity:0}}
   whileInView={{y:0, opacity:1 }}
@@ -45,7 +45,7 @@ export default function Offert() {
           delay:1,
           type: "tween",
         }}>
-          <Link href="/shots">Shoty</Link>
+          <Link href="/others">Inne</Link>
           </motion.div>
     </div>
     <motion.div className ="flex justify-center  my-40 "

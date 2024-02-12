@@ -4,7 +4,7 @@ import {getAllDrinks} from '../../lib/gallery.js'
 
 export default function Drinks({ drinks }) {
     return (
-        <div className ="min-h-screen flex flex-col justify-start items-center w-full pt-40 lg:pt-20 bg-orange-400">
+        <div className ="min-h-screen flex flex-col justify-start items-center w-full pt-40 lg:pt-[8rem] bg-orange-400">
             <h1 className =" text-3xl lg:text-5xl py-5">Wybierz swojego idealnego drinka!</h1>
             <div className ='flex flex-wrap justify-center items-center gap-5 py-20 w-3/4'>
                 {drinks.map(drink => {
