@@ -10,9 +10,9 @@ import { FaTiktok } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <div className ="w-full h-screen flex flex-col lg:flex-row justify-center items-center  bg-orange-400  lg:overflow-hidden">
+    <div className ="pt-40 lg:pt-0 w-full h-auto lg:h-screen flex flex-col lg:flex-row justify-center items-center  bg-orange-400  lg:overflow-hidden">
    <div className ="lg:pt-10 flex flex-col justify-center items-start px-10 w-full lg:w-1/2 h-full">
-    <p className ="text-4xl font-roboto py-3  w-full lg:w-1/2 pt-[22rem] lg:pt-0">Chcesz zarezerować stolik lub lokal? Nie ma sprawy!</p>
+    <p className ="text-4xl font-roboto py-3  w-full lg:w-1/2 ">Chcesz zarezerować stolik lub lokal? Nie ma sprawy!</p>
     <div className ="flex flex-col gap-1 text-2xl">
     <p className ="flex flex-row gap-3 items-center text-3xl py-2"> <FaGlobeAmericas size={30} />Adres:</p>
     <p>ul. Balowa 50</p>
