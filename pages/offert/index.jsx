@@ -4,7 +4,7 @@ import {motion} from "framer-motion"
 
 export default function Offert() {
   return (
-    <div className ="w-full h-auto flex justify-start items-center flex-col drink3 bg-center" >
+    <div className ="w-full h-screen flex justify-start items-center flex-col drink3 bg-center" >
     <motion.h1 className =" text-3xl lg:text-8xl pt-60 lg:pt-40"
     initial={{y: -200, opacity:0}}
   whileInView={{y:0, opacity:1 }}
@@ -58,7 +58,7 @@ export default function Offert() {
       repeatType: "mirror"
     }}>
     <Link href="/contact">
-                    <button className ="bg-[#0f0f0fcc]  text-white font-roboto  text-2xl py-[5px] px-3  mt-20 uppercase rouned-xl">Skontaktuj się z nami</button></Link>
+                    <button className ="bg-[#0f0f0fcc]  text-white font-roboto  text-2xl py-[5px] px-3   mt-0 lg:mt-20 uppercase rouned-xl">Skontaktuj się z nami</button></Link>
     </motion.div></div>
   )
 }

@@ -4,33 +4,9 @@ import Link from 'next/link'
 
 export default function Browars() {
   return (
-    <div className ="h-auto flex flex-col justify-start items-center gap-10 pt-40 lg:pt-[4rem] bg-orange-400">
+    <div className ="h-auto lg:h-screen flex flex-col justify-start items-center gap-10 pt-40 lg:pt-[4rem] bg-orange-400">
       <h1 className=" text-2xl lg:text-6xl py-20">U nas w lokalu znajdziesz:</h1>
-      <div className ="w-2/3 flex flex-col lg:flex-row flex-wrap gap-12  justify-center items-center">
-    <div className ="w-[300px] h-[300px] rounded-xl">
-  <Image
-      src="/browars/żubr.jpg"
-      width={500}
-      height={300}
-      className ="bg-cover rounded-full h-full"
-    />
-    </div>
-    <div className ="w-[300px] h-[300px] rounded-xl">
-  <Image
-      src="/browars/żywiec.jpg"
-      width={300}
-      height={500}
-      className ="bg-cover rounded-full h-full"
-    />
-    </div>
-    <div className ="w-[300px] h-[300px] rounded-xl">
-  <Image
-      src="/browars/warka.jpg"
-      width={300}
-      height={500}
-      className ="bg-cover rounded-full h-full"
-    />
-    </div>
+      <div className ="w-full flex flex-col lg:flex-row flex-wrap gap-5 lg:gap-12 justify-center items-center">
     <div className ="w-[300px] h-[300px] rounded-xl">
   <Image
       src="/browars/łomża.png"
@@ -57,7 +33,7 @@ export default function Browars() {
 
     </div>
     <Link href="/offert">
-                    <button className ="bg-[#0f0f0fcc]  text-white font-roboto  text-2xl py-[5px] px-3  uppercase rouned-xl">Wróć do oferty</button></Link>
+                    <button className ="bg-[#0f0f0fcc]  text-white font-roboto text-2xl py-[5px] px-3  uppercase rouned-xl mb-5">Wróć do oferty</button></Link>
     </div>
   )
 }
